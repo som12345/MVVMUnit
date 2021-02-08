@@ -76,7 +76,7 @@ class AndroidListViewModelTest {
     @Test
     fun checkApiCallDataFAILTest() {
         mockServiceResponse("error_mock.json")
-        Assert.assertNotNull (myViewModel._users)
+        Assert.assertEquals (null, myViewModel._users.value?.data?.android)
     }
 
     /**
