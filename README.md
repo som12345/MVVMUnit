@@ -12,3 +12,5 @@ MOCKITO
 
 MAD(MODERN ANDROID DEVELOPMENT)
 
+Covered test cases for viewmodel business logic.
+
